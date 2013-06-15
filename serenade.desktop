@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.1
+Name=Serenade
+GenericName=Serenade
+Comment=Google Music player
+Exec=env LD_LIBRARY_PATH=/opt/serenade/libs/ /usr/bin/invoker --type=e -s --splash /opt/serenade/splash.png /opt/serenade/serenade.py
+Terminal=false
+Type=Application
+Icon=/opt/serenade/icon.png
